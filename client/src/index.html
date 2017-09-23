@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html ng-app="TheFoodParliament">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="./styles/thefoodparliament.css">
+	<link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+
+	<script type="text/javascript" src="../node_modules/angular/angular.min.js"></script>
+
+	<script type="text/javascript" src="./scripts/electionController.js"></script>
+	<title>The Food Parliament</title>
+</head>
+
+<body>
+	<div id="election" class="container" ng-controller="ElectionController" ng-init="initialize()">
+		<main>
+			<div ng-if="!showElection" class="container-table">
+				<div class="row vertical-center-row">
+					<div class="text-center col-md-4 col-md-offset-4">
+						<p class="font-26"> Please, enter your name: </p>
+						<input type="text" ng-model="user.name" ng-keyup="$event.keyCode == 13 ? nameInput() : null" ng-blur="nameInput()">
+					</div>
+				</div>
+			</div>
+			<div ng-if="showElection">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<div ng-if="election.isElectionOpen">
+							<h1>Election is Open</h1>
+						</div>
+						<div ng-if="!election.isElectionOpen">
+							<h1>Election is Closed</h1>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<section class="candidates">
+							<h3>Candidates</h3>
+							<div ng-repeat="candidate in election.candidates track by $index">
+								<h4>{{candidate.restaurant.name}}</h4>
+								<p>{{candidate.restaurant.address}}</p>
+								<p>Votes: {{candidate.votes.length}}</p>
+								<div ng-if="election.isElectionOpen">
+									<button ng-disabled="!election.userCanVote" ng-click="voteForRestaurant(candidate.restaurant.id)">Vote</button>
+								</div>
+							</div>
+						</section>
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-12" ng-if="election.electedOfToday != null">
+								<section class="electedOfToday">
+									<h3>Today's winner</h3>
+									<div>
+										<h4>{{election.electedOfToday.name}}</h4>
+										<p>{{election.electedOfToday.address}}</p>
+									</div>
+								</section>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<section class="electedsOfWeek">
+									<h3>Electeds Of Week</h3>
+									<div ng-repeat="electedOfWeek in election.electedsOfWeek track by $index">
+										<h4>{{electedOfWeek.restaurant.name}}</h4>
+										<p>{{electedOfWeek.restaurant.address}}</p>
+										<p>Elected on: {{electedOfWeek.date | date:"longDate"}}</p>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+</body>
+
+</html>

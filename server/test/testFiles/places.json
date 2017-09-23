@@ -1,0 +1,851 @@
+{
+    "html_attributions": [],
+    "next_page_token": "CpQCBwEAAIdG0zVUkXuQINN4nYydT6MjjVAD3-_nThBqaa8Tb_xCzJTDoSnTh0QV2OgbZIt5IXGyb2oWwPsz77n6SICSpPEmr2KCWI31nrBuRr5dOn0oOrhjsU5XZVyEDF9qCQ2zGfi5BLtpqVP8MbX08_VxUBd55zvN1aB9BytqPKWnN3XXg7-471ylMgvx8-pMrF9phiq94yjFJhzYJl3XXU-v0sUZChuyzWFfBkp5p-CFsfqy9mOaMzkKlcH3lK6r8RkZgS2h7IHO4OQr6K8jQNe1Tv7lJ5K4WjwXsWC8WSdJDd2klbNYB6UfoTlWbk-VJUvLiVKrvEGfRnoGi3EGtlfzr4USn9_lbiJKcHiDdze7gSPaEhDPWsOrbJu60qWT_BSfj3HSGhRqFtjfuzngkNoa6hHka4cgxIZB4A",
+    "results": [
+        {
+            "geometry": {
+                "location": {
+                    "lat": -29.1652341,
+                    "lng": -51.1789439
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -29.1638834197085,
+                        "lng": -51.1774873197085
+                    },
+                    "southwest": {
+                        "lat": -29.1665813802915,
+                        "lng": -51.1801852802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "b822c9e09ed350d5f1014b61e09f03288c453341",
+            "name": "Hamburgueria Jaime Rocha",
+            "opening_hours": {
+                "open_now": true,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 3264,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103700551912148427184/photos\">Vanessa Martins Dias Lage</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAO3PI_mJvS5qn4DWkxSW0AKIfjHhJh9k6ZY0ZdqDeqQugnR7SaZhOwkMpvnca0j9eFJGUyDrclB4TyVHgpjr6RDImcKn2cx0-ZIuN80jsavoW2GYudpIPQHyq3YU0RrKQEhCrODRdDZQ1On8lTasp-rH1GhR7ORF5V_rb7LcTlbC3yAKZxWOdog",
+                    "width": 1836
+                }
+            ],
+            "place_id": "ChIJVU3rutS8HpURlBl9_-lqemM",
+            "rating": 4.7,
+            "reference": "CmRRAAAAxv87p0AyGF0z5vxkkWKznf6ze6HEV3FJDnM4S0ZsGL_6sgjoCZKoUzpsfcCDyyRzHvWMx8IMiQBedc2pmjbc_kJhz8o5xss6EHNNjolVZZmXMc6Sxu7ZQVsv4HHrlGddEhBp8Ntb2_N8OK3EelKwMSGLGhTithu-hlS5kNz9sgUH48axyYFshA",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Marquês do Herval, 983 - Centro, Caxias do Sul"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -29.16938619999999,
+                    "lng": -51.1799303
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -29.1680372197085,
+                        "lng": -51.17858131970849
+                    },
+                    "southwest": {
+                        "lat": -29.17073518029149,
+                        "lng": -51.18127928029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "4d6ea763e473fc068ccbd800d7f78e1f1c5ca97f",
+            "name": "Panificadora Pan D'Amore",
+            "opening_hours": {
+                "open_now": true,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 2448,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107968333012853977637/photos\">Élisson Lyra</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAMRXW-BXXUonwjLNTPe3Y58yLMM8J9CYdDaGELnDSJdtrOcEj9IDXnz0Eb4-pKTFS3D0iDDjYfwDQvfwh2L_TcTBQy8q5zcWRmawsCPR5MGHXCaSCyq_HhLOB2WqSoyZmEhACfsiKT4m3GGF5a6QVRUeFGhSayBOisHt3sWtAIxZg27NF8dAYkw",
+                    "width": 3264
+                }
+            ],
+            "place_id": "ChIJjUdlLy2jHpURMMEOYGZWPgQ",
+            "rating": 4.1,
+            "reference": "CmRRAAAALPfh4rYMkQY7HQ1h6ZyBR6kiclgswM5pCUNW5ca7VEu9069OBHN21Nog0EEcpRrrY-1EN4QSczSARyyIEwV2iMq4vUWkqWp1IUG19wmqnOuBx7ynsa58mgts9lV5wfjHEhDjwQMRqXVUhUnu3eIvYhEbGhRondAjxMMOqUepoHcLss98c_McIw",
+            "scope": "GOOGLE",
+            "types": [
+                "bakery",
+                "cafe",
+                "restaurant",
+                "food",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Dr Montauri, 1458 - Madureira, Caxias do Sul"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -29.171065,
+                    "lng": -51.182591
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -29.1697157697085,
+                        "lng": -51.1812974197085
+                    },
+                    "southwest": {
+                        "lat": -29.1724137302915,
+                        "lng": -51.1839953802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "49724e6aa075ecc37c167bc002af30565a1f918c",
+            "name": "Gigetto Pizzaria",
+            "opening_hours": {
+                "open_now": true,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 4160,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/114933406918415057191/photos\">MECÂNICA POWERMEC</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAGBTIPcTfaaXVzwCf2F-3yz7_XQxoKB8st1UnvcHFUhJNkJxKRn3g4-yqseesYDWGWvX96uwdMtedlIXsA71nLsE9SQ3ZfF0ddjXvnHfiHoT2IP7PW1h6AN8NwlzHh5v_EhCppMJToGBmkmXbKFyCyySHGhQ8AQLR2iCRl2wIEwrOV_znns5DoA",
+                    "width": 2340
+                }
+            ],
+            "place_id": "ChIJr8iGhS2jHpURbfv0S7WVYGk",
+            "rating": 4.4,
+            "reference": "CmRRAAAAeYWwkeT3hzb7nvWpW5xVCc-5F2-OJM9KfEPpqUqio0SnUl5pWo28j7ETGdMXmo8LM8jpxdwm1w_5Behe2q6el7lcC2yNZDG16HyxhXfL1rvxU6qFtJm5LV6-XI5W25_WEhA_QGYgrVVdgP7It75oQBOpGhQKg-iSGlQQBsMLJZzzQBF3kLT9oA",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Garibaldi, 1094 - Exposição, Caxias do Sul"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -29.1674594,
+                    "lng": -51.1784332
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -29.1662683197085,
+                        "lng": -51.17708151970849
+                    },
+                    "southwest": {
+                        "lat": -29.1689662802915,
+                        "lng": -51.17977948029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "952b2a89ffc1940f4fc881b0a265ee83ba90c7bc",
+            "name": "Buffet Aristocrata",
+            "opening_hours": {
+                "open_now": false,
+                "weekday_text": []
+            },
+            "place_id": "ChIJiVLSJtO8HpUR56KIWeP-nC0",
+            "rating": 3.4,
+            "reference": "CmRRAAAACL79rHju072GPkLVonddlnQDPnxHlf8P_xK3A5HYqk7Wmn4IAhmM45SNpy6IpL3W0005imQcJYHOQXttKNQW5RrNFRq-yF4HxdF1WWuLR0dVcgne6yDmsWCWaPILWg6tEhCcZ2XvBPmJAgMldo_0NFj7GhSkWLZnCYrTFXVWVb7TwC0lTfdOVg",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Avenida Júlio de Castilhos, 1677 - Centro"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -29.1675359,
+                    "lng": -51.1753487
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -29.1662728697085,
+                        "lng": -51.17399666970851
+                    },
+                    "southwest": {
+                        "lat": -29.1689708302915,
+                        "lng": -51.17669463029151
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "86583e1646e69f3a6e145ccf93dd5096dea91a9b",
+            "name": "Cestas Café da manhã Felicitá",
+            "opening_hours": {
+                "open_now": false,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 800,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113401796074946443684/photos\">Cestas Café da manhã Felicitá</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAmxI-xn4-PtOMS6N34qfNtWkWOrOuv8HTlQ-zEvV9F5qA70_xJr5mTdJCnfi4OFidb_eqFbCyMZy_zXqh3tFj9V34Xu41s38m3ELkLSR5qiaRzCup-qOtA8WZx7I2v_LREhBPLVSFfdaHmPmyOHWrY1BxGhRX5FeSS-xgRzzZ-eP1L06_RkVWxQ",
+                    "width": 600
+                }
+            ],
+            "place_id": "ChIJzfVMONK8HpURAwgSgtiI2QY",
+            "reference": "CmRRAAAAC-UtABSqcaoTorOJnf4CXJcQhY4h6qBJwW32cgtB1UHp8FmqrK3yvCEZul_OK7NTtR17v39AXXHRsVsBSu3e7qH0cvvyJdmcuMVbYN2r4x3EWohQF1rXu4Auhs6_6_C1EhA30urWaoHIF5KUOdWm9g8_GhRsEuj6gJOJPFxz6siI7c2i1h0w5g",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Avenida Júlio de Castilhos, 1357 - Nossa Senhora de Lourdes, Caxias do Sul"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -29.169887,
+                    "lng": -51.1812108
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -29.1685380197085,
+                        "lng": -51.17986181970849
+                    },
+                    "southwest": {
+                        "lat": -29.1712359802915,
+                        "lng": -51.18255978029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "0c1582abf8ba947839e0323ef0ff6f8ff3b34822",
+            "name": "Sônia Hermoza",
+            "place_id": "ChIJNXLC3cO8HpUR1jJIAbfGNQw",
+            "reference": "CmRRAAAAJr0NkKcYNVr06f-ZI1hjBsPMbt_F_FtVdguK6pIheoqyxNpMfadEjZVcXokjjXX1PLECYweY_ZP8Tv_gr6d6yZXL_GGUm0QELoqLkbsHVCzjLdSQQh1Q647FTLrRL7iZEhCy6es8RhyYtKBN0A42W-lmGhQjtiS9JSZCGuovNvZtfXptK_DGkQ",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Os Dezoito do Forte, 1964 - Centro, Caxias do Sul"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -29.169739,
+                    "lng": -51.1797298
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -29.1684466697085,
+                        "lng": -51.1783799197085
+                    },
+                    "southwest": {
+                        "lat": -29.1711446302915,
+                        "lng": -51.1810778802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "f89b03463487e599785bc1a5bb2fce3f17909047",
+            "name": "Croasonho",
+            "opening_hours": {
+                "open_now": true,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 2336,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102911219309196096018/photos\">Joir Rossoni</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAT53iINok-EwTWDyHbdGUFFtCObufOHUpzA819YA0Q674G9g2xf_q9h4mVo-SztlH0Vq2NXpioGR8NhazoDAU7uq0Vg7b-Vo9QDWddQrpGPrG-L-9FjiZ-YrsfAhyWxfmEhCVOmronuMXqcMd8h5FH7SkGhQOem91ucCDZF_4cDaZnBHPWQ5O3A",
+                    "width": 4160
+                }
+            ],
+            "place_id": "ChIJlT14Py2jHpURSlhObJ1orNs",
+            "rating": 4.7,
+            "reference": "CmRSAAAAwvZ1DPSAAKP-Ac5alJ1u6p0WHpHd5XsTvkmkq6JuV_vzUKqwlsWFl5FMQuO1xQzi1IGJGZN8MMOfYU6EX-C6JfpeDzfBJ-S8j6vDXmDAHcUjSw0z-hW2LktGxjDPa3UOEhB9XodW9nDt88u0lbVLt1LqGhT9KXEy9A4mZukZ8PEMbBd_Agdbig",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Os Dezoito do Forte, 1815 - Centro, Caxias do Sul"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -29.169988,
+                    "lng": -51.1797093
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -29.1685710697085,
+                        "lng": -51.1783613697085
+                    },
+                    "southwest": {
+                        "lat": -29.1712690302915,
+                        "lng": -51.1810593302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "8755c78082b87031ac8ae04799db0228e74ece30",
+            "name": "Subway",
+            "opening_hours": {
+                "open_now": true,
+                "weekday_text": []
+            },
+            "place_id": "ChIJ1XgTTC2jHpUR6mCP2Z_dfmY",
+            "price_level": 1,
+            "rating": 4.5,
+            "reference": "CmRRAAAADaCefkkymm_LQqXjWNwL1mVTF7HxzslDULg7zOUU2xwnGqYmvTvIivekxi7DlbE2aUyUo_vZm5aRRAE1RK-UCFA9oCTE5bll5_rH9h4xLilIrgQkidEvcJG8kWGDHhLTEhCTZcGIkiUBO7V-o5COXEyfGhRSOzGEv4oovTyHmLwfSIZrj8hxIA",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Os Dezoito do Forte, 1808 - São Pelegrino, Caxias do Sul"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -29.1696317,
+                    "lng": -51.1768696
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -29.1683625697085,
+                        "lng": -51.17551856970849
+                    },
+                    "southwest": {
+                        "lat": -29.1710605302915,
+                        "lng": -51.17821653029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+            "id": "c429952972a3637a9f1a2463b6af30e2fa1f2ecc",
+            "name": "Yoo Boutique Food Store",
+            "opening_hours": {
+                "open_now": true,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 1152,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/116673791621857795859/photos\">Daiane Jesus</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAI_ZM3TwBuEQsjwdGr-H7KvRW_eSHYvPT7b4DmJ5mM-MkBoLqaPBBl707P8EHRpbYFhFP46s7p75gSAE2EEw5HjY-o1sLEiwu0-sZu2iVbsDkVKq0oequqe7nUaVrI8lKEhAT2v1UI2c4v1FbPfwXW4t9GhTKssPAyAhIP8gyEf_m1YY5X_1ldw",
+                    "width": 2048
+                }
+            ],
+            "place_id": "ChIJNbO6gNK8HpURUjOmEWJVol8",
+            "rating": 4.3,
+            "reference": "CmRRAAAANBDVkEEdAZVfRvTP9pY-8FEex2LtXZa6R8z0Z7t454gVyPui0zkbVXSnoVnPaaIequFMhONcDw--3OX859qnv244WOIrnNO-3Qn8jy48lfOkqHkxRQal6BSnR0qN_yBHEhDYQmyf61xlBfD8gFUlWR_xGhSvut64nhccmiDC4qJyP9ZnQQhiJA",
+            "scope": "GOOGLE",
+            "types": [
+                "grocery_or_supermarket",
+                "restaurant",
+                "food",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Os Dezoito do Forte, 1535 - Centro, Caxias do Sul"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -29.170608,
+                    "lng": -51.17863800000001
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -29.1692593197085,
+                        "lng": -51.1773251697085
+                    },
+                    "southwest": {
+                        "lat": -29.1719572802915,
+                        "lng": -51.1800231302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "17366a1b182abdc6358f2e2b82ce2441ab3c534c",
+            "name": "Mineiro Delivery - Caxias do Sul",
+            "opening_hours": {
+                "open_now": true,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 1932,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/111778892837783159856/photos\">Adriano De Lima</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAw-2A0aV3egtaKZdV0G9VtsuP9Fn22PN4AMxDW3fhrYc2DehAllCa3gDqRks34kt66ue3h_sdRd2ZyELKCgvBOhu1tjQG8mdg7dUBJ30hA8oIhqWYeSvF8tfnYY32R84CEhAv8DjhDrMalhl79GAs-Mj7GhTRE4AwZzApwW6NMSRrrkXCKuylzA",
+                    "width": 2576
+                }
+            ],
+            "place_id": "ChIJGdlXWM28HpURZq-R3cL_6MQ",
+            "rating": 3.4,
+            "reference": "CmRSAAAA0maFgiWXi_Gx4TlTritEKFvWEK0c-1Dn_IuwW4aHlv8aNklHOlLE8-eErSIeyIaVndW1sH_0Y4xJ0LOc-lTM7D4KHjeD1QZprvM-kOYS6XKLp6i6ezBel7foAJj-Ai5GEhD2urj4Kf0gN6p2g0HJTRleGhT0ElPRTuXoO6YxhjSYNGGJIn2CNg",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Marquês do Herval, 1572 - Sala 01 - Centro, Caxias do Sul"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -29.17030209999999,
+                    "lng": -51.1797911
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -29.1689550197085,
+                        "lng": -51.1785475697085
+                    },
+                    "southwest": {
+                        "lat": -29.1716529802915,
+                        "lng": -51.1812455302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "549281ea2d548eabb8d52f0127a52cb8fa85ebbe",
+            "name": "Kando Temakeria Centro",
+            "opening_hours": {
+                "open_now": false,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 2988,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/105835008534278055144/photos\">Roque Mazzuchini</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAs8-HdyCD0aJF-_YErz7yPt-jAzdMiCPR4wsJKICwtIuWkMks7KirBnSx8qsGDI6Tf5R8PDh7vLm_4ETyihawk1VC-0bFOdkXlzOB9p_A-j2ExkiRlLt0LRCNRZLT0zIbEhDQGVuYHowtk591uypOtUEfGhSs_hmgFRTtHJYy3vN_I7sllwle9A",
+                    "width": 5312
+                }
+            ],
+            "place_id": "ChIJOTgxTi2jHpURvRFCEQ_MA7k",
+            "rating": 5,
+            "reference": "CmRSAAAAlTeADL92-82y537MXHx_3i-ddiRnHVJ8_lFL4Zwx8L7GrqAyP--ROKO6eTJeGrnXW81dupT7KS8J1XQfxtFgVsTLzUtPN5aTnU8GSU0xuCf_BcoB_tTCEzmLgFyTFDigEhAT4KPsjvVbsHHFoeYWSW54GhTCMiSxepqe61OotiAXIqUafwRoaQ",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Doutor Montaury, 1552 - Centro, Caxias do Sul"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -29.16907670000001,
+                    "lng": -51.1822986
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -29.1676410697085,
+                        "lng": -51.18085661970849
+                    },
+                    "southwest": {
+                        "lat": -29.1703390302915,
+                        "lng": -51.18355458029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "73e67cd478dcadc20f54b6c8db7dc69120a6a64b",
+            "name": "Restaurante Labaredas Grill",
+            "opening_hours": {
+                "open_now": false,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 2576,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/118137119894467767974/photos\">Daiana Misturini</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAn8emPtqMMIyLSFCmSNAMlY1IUweRjttd05EGPTpFkpHvZW8RPwCsi7GH8fCCxcMrOSiihlDQ9ZxkbkYJ2OFTlTBp0Au7nzikqHoB87YAAFzNA2aSZXqzh1_KCU4iqXpWEhBeQUMvUejg4vrfYrpn4A-cGhSSaDGsikR251TaRPliSNP2s4FqyQ",
+                    "width": 1932
+                }
+            ],
+            "place_id": "ChIJpQSyLS2jHpURMyNe7UsiQpk",
+            "rating": 4.4,
+            "reference": "CmRSAAAA6-VmaPjkDBTtt8LnL_0C0vXVZWnQkMD14RtHryt0QlwMx1Jo9-OYtX5vM2j0rF5nM1gRTkJkhdyZop5ahOsTk95hF8Rhe-HeU6v05l5jsXcQVz09JjK7CpwEyccml4i2EhBk9PZYGBTKi5J7Y4Y_nrB1GhSaVJQJrS6yxMc3Fnqdx4_C2_xYOw",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Sinimbú, 2070 - Centro, Caxias do Sul"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -29.1665055,
+                    "lng": -51.1800265
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -29.1651552197085,
+                        "lng": -51.1786603197085
+                    },
+                    "southwest": {
+                        "lat": -29.1678531802915,
+                        "lng": -51.18135828029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "62fbd8bf4e4d4e0e516577eae8020cd9d6f1c4cf",
+            "name": "Tchê Coxinhas - Centro",
+            "opening_hours": {
+                "open_now": false,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 504,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/111569371839968581937/photos\">Tchê Coxinhas - Centro</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAeBt0tOalija7I_9p2Awop0uwrIRT6jGJtZHZuy4vLoRVtEdcQz7Uz5N-k94mBwF7bcLkeXMr3BNXXI1p2FDCV0SF1-MWv47rP1mgaz85KNuhrqbQuj0GCuamgSTg2haLEhByq4CxFPufE9RSF7nBwsBHGhRVs2IU3syCjbvgxxra-Y_CD_A3iA",
+                    "width": 504
+                }
+            ],
+            "place_id": "ChIJa5QUVNO8HpURIFRpsjvUEzs",
+            "rating": 5,
+            "reference": "CmRRAAAAbgIUPmJoh_AxaABIVRuMcBqQOLZNDwW_FFVxjxGbN2xdwl6ZSq5d2mH7VvvkIU4mrPoKKdHRWll9EFqED2P-5DhqnIDUHrDbAV-ROFaCT2Zv68o6bwzC4pbCZaZqiAKYEhCco61lLXBGB4AWGUqo2p3uGhTCMjsJiXNVO9JsQB0LjPec0WUeVg",
+            "scope": "GOOGLE",
+            "types": [
+                "meal_delivery",
+                "meal_takeaway",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Doutor Montaury, 1142 - Centro, Caxias do Sul"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -29.1696011,
+                    "lng": -51.1752967
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -29.1683353697085,
+                        "lng": -51.17394686970849
+                    },
+                    "southwest": {
+                        "lat": -29.1710333302915,
+                        "lng": -51.17664483029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "672361c8fab291027dc46baaadf35ac92cffc377",
+            "name": "Flor de Cerejeira",
+            "opening_hours": {
+                "open_now": false,
+                "weekday_text": []
+            },
+            "place_id": "ChIJVWOIgNK8HpURHMMMDlKGvnE",
+            "rating": 4.4,
+            "reference": "CmRRAAAABqMHUcj30a5w_xdGj9m0HHq5xmclWDjmPSwWg48HNA-09KbBvLWUiYgt2ofYZoPGJa4yAmBfh7vDDNcdcGV02CEhkEQ8NDm77vuA5CyyxOfWiPJXj9meRZu9VwdbyhA6EhD8lCJNgvfZV15JDgM_iF31GhS-0uMm8Ss5zYZTvdzB43XirFjedQ",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Os Dezoito do Forte, 1403 - Centro, Caxias do Sul"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -29.16728699999999,
+                    "lng": -51.18133299999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -29.1659369197085,
+                        "lng": -51.18003336970849
+                    },
+                    "southwest": {
+                        "lat": -29.16863488029149,
+                        "lng": -51.18273133029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "1007b68d3ad87d8986b7ba62d0c9f23eb51ba655",
+            "name": "Restaurante Censi",
+            "opening_hours": {
+                "open_now": false,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 300,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106156280915760348970/photos\">Restaurante Censi</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAGlhgCLbRnDwZsD_Wngg4tBTj97pbhXcjsrrFmlWwzuvYzYUd-PJYzLihoLHnvQA_Wv4LbqvhuALKnYn5ywcZWsxuQJyGogG7nPrPeTxfK8qukJqGeJqqv4kTTIewfZD3EhAgyOkocg8DAatX-rMjWDXNGhSehYf3so0VLWbH-ovfZEj6z070Bw",
+                    "width": 300
+                }
+            ],
+            "place_id": "ChIJHSS2kSyjHpUR0YMyh7Ate8Y",
+            "rating": 4.5,
+            "reference": "CmRSAAAA1oaRKdrtJwwUP6lJejFTVy0zElmmSD0PVB3IcYBmOOz7-9oFWG9KJSEs5INWzDtlGCtXHY87qzO7PEXcWtVI11YXSM5hJ8nD-HK3Wpc9wIriTD07w9x0yM9hXiRJLlKuEhClh6u-j14bPsnSFRUmXgF4GhSsens9swUYlCGUjhk5gX2YOhkM-g",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Visconde de Pelotas, 682 - São Pelegrino, Caxias do Sul"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -29.1668167,
+                    "lng": -51.1751915
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -29.1654374197085,
+                        "lng": -51.17384321970849
+                    },
+                    "southwest": {
+                        "lat": -29.1681353802915,
+                        "lng": -51.17654118029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "6cb4c4a2a58c97d3cd1f90c1241d47e8e75210e0",
+            "name": "Restaurante Ícaro - Centro",
+            "opening_hours": {
+                "open_now": false,
+                "weekday_text": []
+            },
+            "place_id": "ChIJKemozNO8HpURZSpz4NIYNfg",
+            "reference": "CmRSAAAAQHLRvF_gK8-iqNVFGPUwVoiOnRKBINcUOTqBrnxvecTR4wbZJldfh_a5x3EuMkuNpZ84yO6_bGGVdmHOKizMyAO5YKOyHWoMP97LdXUe9Ldz4vgK6WBq0RnWvwje7Hm8EhDfatn7uEk2lT022n6aQ9uVGhRYoK76bW9Ab0DAiDyY24z6bU0CTQ",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Pinheiro Machado, 1370 - Centro, Caxias do Sul"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -29.165423,
+                    "lng": -51.1772697
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -29.1640766197085,
+                        "lng": -51.17598211970849
+                    },
+                    "southwest": {
+                        "lat": -29.16677458029149,
+                        "lng": -51.17868008029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "d7894ac47e66895cf882581c2392496fc6b4cbaa",
+            "name": "Forneria Siciliana",
+            "opening_hours": {
+                "open_now": true,
+                "weekday_text": []
+            },
+            "place_id": "ChIJZ2GJe9O8HpURlY4jI0ojv28",
+            "rating": 4.2,
+            "reference": "CmRRAAAAyZFof9NnvE4IZ7AuLAIwWqSrDJ11rgIevORmUk7xuomkpAx77A2EtF5gD2aK7mcuG71eJR_smizej0oHIgKYCN3jKr-_-UTkI1Xed51xXkAi6NPEqEONP6M2wJ3Ckf7vEhBqJrwY8NXX2Of8VZw9JLpBGhR3uuZKJmSyFut6k8aiORgfs9eRoA",
+            "scope": "GOOGLE",
+            "types": [
+                "meal_delivery",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Borges de Medeiros, 484 - Centro, Caxias do Sul"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -29.1703042,
+                    "lng": -51.1825507
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -29.1689549197085,
+                        "lng": -51.18127511970849
+                    },
+                    "southwest": {
+                        "lat": -29.1716528802915,
+                        "lng": -51.18397308029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "a440d213c40a4599720a8212d8e21da34cdb276f",
+            "name": "Tonico Lanches",
+            "place_id": "ChIJrdz8ly2jHpUR8oCVJaCt7fw",
+            "rating": 4.7,
+            "reference": "CmRSAAAADVq4C2V_UVLfBnHLDY-SrI75rJkMM6shxFn4nIhgcWQBuEFtTThJX4YVP0DRj1ECmgK4ksnCHggQ2YZtDq2VnOUJRQgkkjLxVFNg7cLCo0UXhSiBi_f6xQBHFnwl2sNHEhC7l_zdjk_Q8ICRcIXNYpXNGhSMHJUt5JfcmfUfLC7n5vagI5nqlA",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Garibaldi, Caxias do Sul"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -29.170291,
+                    "lng": -51.182615
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -29.1689418197085,
+                        "lng": -51.18130721970851
+                    },
+                    "southwest": {
+                        "lat": -29.1716397802915,
+                        "lng": -51.18400518029151
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "f538307df65c19a8981020b5a3c678712b293b0b",
+            "name": "Restaurante Chef",
+            "photos": [
+                {
+                    "height": 720,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/114735784136499768221/photos\">Restaurante Chef</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAiGXGV08aQ1oUwvKuLQqFb1-n7tHzCuZlUzhXW42ld0JIXT3peNXjMPA_x0bq5U97VatZRrIyq7G5RCevaOhu4REBJAuDUn4T3SYH2y6m33NXz-aUdP1bjzgcWAGa3kpGEhBMchBZqszzLO5jRGDIql5YGhQSIm1Xj_qC5Nfczlw7bCNhnqpM5g",
+                    "width": 960
+                }
+            ],
+            "place_id": "ChIJX06WpC2jHpURRAK5zJ5GNJA",
+            "reference": "CmRSAAAADUMh_601NYeswxsraedomUDWxN9FNPK5ZidRTe5VP8BW2X-0OiiJ73aas_nTtpJg24eo6FuiLvIq8doS_CeYVNYPeBxuPlxrCi_dHsw6AdrirdaTTSVc8hveLi0krIEbEhBDNPjmEdXSGgfDBUsGnC1sGhQvzevJnvPtGxFaF6r_Z1htROn2Ow",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Garibaldi, 998 - Exposição, Caxias do Sul"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -29.1693141,
+                    "lng": -51.1830317
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -29.1679598697085,
+                        "lng": -51.1815276697085
+                    },
+                    "southwest": {
+                        "lat": -29.1706578302915,
+                        "lng": -51.1842256302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "18dfc044257ced0e2a4ebf43bc1594233dc0c719",
+            "name": "McDonald's",
+            "opening_hours": {
+                "open_now": true,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 1836,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117413331754093800435/photos\">Théo Henry</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA3Xoq3Pk7zCjSDz4lpzaVhDAVYBpy8IvAiCGloVOFIgRMZ07wiSnO4J1xF795bpmHNeqTB0DddP_rig3Extj7syrkFCphmFLyj6Q7a5i2qo7yltJfBcmn5NElNAxyRniQEhDCti9HfAb-8dlfwx5xpF5SGhQihSbpHgq-KeiVIdVzXuuZaQDzvw",
+                    "width": 3264
+                }
+            ],
+            "place_id": "ChIJUa1PTiyjHpUR4fZwI04crKw",
+            "price_level": 1,
+            "rating": 3.9,
+            "reference": "CmRSAAAA17FhbAP1OBRsqFjmkaaB32KbzWrkU-_5tIrkrCOuaaEj-QadHx0FdV25XKOikAYEqRFsCmF7Jsmpvt1BDrkMvMWgRAmEMwPgbFk5CbgeRZiZKnNcv2mxU7fDW9RZII7EEhBW2LuHXkxUdd_Nr9ZwV-NZGhTW76kOToNmQ8QQeBeQ909wBjTI7g",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Garibaldi, 891 - Centro, Caxias do Sul"
+        }
+    ],
+    "status": "OK"
+}
