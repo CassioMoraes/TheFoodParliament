@@ -5,21 +5,19 @@ The following project is a code challenge for PragmaTeam.
 
 ## Getting started
 
-In order to run the project is necessary to install npm packages in both client/server folders using 
+In order to run the project is necessary to install npm packages in both client/server folders using:
 ```
 npm install
 ```
-
-The test can be run using 
-````
-npm test
-````
-
-And the server can be started with
+then in the server folder execute:
 ````
 node src/server
 `````
-assuming that the current location is inside server folder
+
+The tests can be run using:
+````
+npm test
+````
 
 ### What are the highlights of your logic/code writing style?
 
