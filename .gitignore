@@ -60,5 +60,3 @@ typings/
 .env
 
 .DS_Store
-
-server/apisKeys.js

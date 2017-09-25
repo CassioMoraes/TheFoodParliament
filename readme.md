@@ -1,24 +1,27 @@
 # The Food Parliament
 
 Please for evaluation purpose use the branch CodeChallange.
-
 The following project is a code challenge for PragmaTeam.
 
 ## Getting started
 
-In order to run the project is necessary to install npm packages in both client/server folders using:
+In order to run the project is necessary to:
+- Configure the file 'apisKeys.js' located into server folder with your Google Places Api Key.
+- Install npm packages in both client/server folders using:
 ```
 npm install
 ```
-then in the server folder execute:
-````
-node src/server
-`````
 
-The tests can be run using:
+The test can be run using 
 ````
 npm test
 ````
+
+And the server can be started with
+````
+node src/server
+`````
+assuming that the current location is inside server folder
 
 ### What are the highlights of your logic/code writing style?
 
@@ -32,9 +35,11 @@ Bellow is a list of improvements and other functionalities that are missing for 
 - In case of draw between two or more candidates the last of the list is the winner.
 - Implement a proper serialization method, currently the data is write/read in a json file, but I left the repository read to acept the database implemntation, so there is just one place that need to be changed in that case.
 - The restaurant list in being fetched with Google places API, but the location is hardcoded.
-- The user Id is populate by the user name in a text box, so some sort of login or other identification is required.
+- The user Id is populate b the user name in a text box, so some sort of login or other identification is required.
+- Implement errors handling.
 - The layout is really bad.
 
 ### Any other notes you judge relevant for the evaluation of your project.
 
 Most of my working experience with programming comes from C#, I also worked with Javascript/AngularJS in professional and personal projects, but this is my first experience with Node.js, I intend to keep learning and using this code challenge project as a playground, for that reason, I suggest using the branch CodeChallenge for evaluation purposes. On branch master I will continue to develop this project including new functions and other improvements.
+
