@@ -10,7 +10,7 @@ let votesRepository = new VotesRepository();
 votesRepository.mocksPath = votesTestFile;
 
 describe('#save()', function () {
-    it('should return true', function () {
+    it('should return true', function (done) {
         let userId = 1;
         let restaurantId = 'testVote';
         let date = new Date();
@@ -19,6 +19,7 @@ describe('#save()', function () {
 
         votesRepository.save(votes, function (status) {
             assert.equal(status, true);
+            done();
         });
     });
 
@@ -28,7 +29,7 @@ describe('#save()', function () {
 });
 
 describe('#load()', function () {
-    it('should return votes from file', function () {
+    it('should return votes from file', function (done) {
         let userId = 1;
         let restaurantId = 'testVote';
         let date = new Date();
@@ -40,10 +41,15 @@ describe('#load()', function () {
 
             assert.equal(loadesVotes.length, 1);
             assert.equal(loadesVotes[0].restaurantId, 'testVote');
+
+            done();
         });
     });
 
-    after(function () {
-        votesRepository.save([], function (status) { });
+    after(function (done) {
+        let votes = [];
+        votesRepository.save(votes, function (status) {
+            done();
+        });
     });
 });
