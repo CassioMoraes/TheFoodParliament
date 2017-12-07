@@ -65,3 +65,5 @@ server/apisKeys.js
 
 client/package-lock.json
 server/package-lock.json
+
+server/src/infrastructure/dataMocks/

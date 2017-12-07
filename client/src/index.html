@@ -15,6 +15,7 @@
 	<script type="text/javascript" src="./app/electionController.js"></script>
 
 	<script type="text/javascript" src="./app/components/electeds/electedOfToday.js"></script>
+	<script type="text/javascript" src="./app/components/electeds/electedOfWeek.js"></script>
 	<script type="text/javascript" src="./app/components/candidate/candidate.js"></script>
 
 	<title>The Food Parliament</title>
@@ -67,9 +68,7 @@
 								<section class="electedsOfWeek">
 									<h3>Electeds Of Week</h3>
 									<div ng-repeat="electedOfWeek in election.electedsOfWeek track by $index">
-										<h4>{{electedOfWeek.restaurant.name}}</h4>
-										<p>{{electedOfWeek.restaurant.address}}</p>
-										<p>Elected on: {{electedOfWeek.date | date:"longDate"}}</p>
+										<elected-of-week elected='electedOfWeek'></elected-of-week>										
 									</div>
 								</section>
 							</div>
