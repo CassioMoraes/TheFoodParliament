@@ -116,7 +116,7 @@ class ElectionService {
     isElectionOpen() {
         let currentDate = this.momentWrapper.getDate();
         let electionOpening = this.momentWrapper.getDateWithSpecificTime(0, 0, 0);
-        let electionClosing = this.momentWrapper.getDateWithSpecificTime(12, 0, 0);
+        let electionClosing = this.momentWrapper.getDateWithSpecificTime(8, 20, 0);
 
         let isSameOrAfter = this.momentWrapper.isSameOrAfter(currentDate, electionOpening);
         let isSameOrBefore = this.momentWrapper.isSameOrBefore(currentDate, electionClosing);

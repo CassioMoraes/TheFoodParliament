@@ -9,11 +9,12 @@
 	<link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.css">
 
 	<script type="text/javascript" src="../node_modules/angular/angular.min.js"></script>
-	
+
 	<script type="text/javascript" src="./app/app.js"></script>
 	<script type="text/javascript" src="./app/webService.js"></script>
 	<script type="text/javascript" src="./app/electionController.js"></script>
 
+	<script type="text/javascript" src="./app/components/electeds/electedOfToday.js"></script>
 	<script type="text/javascript" src="./app/components/candidate/candidate.js"></script>
 
 	<title>The Food Parliament</title>
@@ -57,11 +58,7 @@
 						<div class="row">
 							<div class="col-md-12" ng-if="election.electedOfToday != null">
 								<section class="electedOfToday">
-									<h3>Today's winner</h3>
-									<div>
-										<h4>{{election.electedOfToday.name}}</h4>
-										<p>{{election.electedOfToday.address}}</p>
-									</div>
+									<elected-of-today elected='election.electedOfToday'></elected-of-today>
 								</section>
 							</div>
 						</div>
