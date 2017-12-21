@@ -34,7 +34,7 @@ app.controller('ElectionController', ['$scope', 'webService', 'geolocationServic
     }
 
     $scope.getElection = function () {
-        webService.getElection($scope.user.name, -29.1689, -51.1785).then(function (response) {
+        webService.getElection($scope.user.name, $scope.location.latitude, $scope.location.longitude).then(function (response) {
             console.log(response);
             $scope.election = response.data;
         }, function errorCallback(response) {
