@@ -12,6 +12,7 @@
 
 	<script type="text/javascript" src="./app/app.js"></script>
 	<script type="text/javascript" src="./app/services/webService.js"></script>
+	<script type="text/javascript" src="./app/services/geolocationService.js"></script>
 	<script type="text/javascript" src="./app/controllers/electionController.js"></script>
 
 	<script type="text/javascript" src="./app/components/electeds/electedOfToday.js"></script>
@@ -25,11 +26,17 @@
 	<div id="election" class="container" ng-controller="ElectionController" ng-init="initialize()">
 		<main>
 			<div ng-if="!showElection" class="container-table">
-				<div class="row vertical-center-row">
-					<div class="text-center col-md-4 col-md-offset-4">
-						<p class="font-26"> Please, enter your name: </p>
-						<input type="text" ng-model="user.name" ng-keyup="$event.keyCode == 13 ? nameInput() : null" ng-blur="nameInput()">
+				<div ng-if="geolocationStatus != null && geolocationStatus.enabled">
+					<div class="row vertical-center-row">
+						<div class="text-center col-md-4 col-md-offset-4">
+							<p class="font-26"> Please, enter your name: </p>
+							<input type="text" ng-model="user.name" ng-keyup="$event.keyCode == 13 ? nameInput() : null" ng-blur="nameInput()">
+						</div>
 					</div>
+				</div>
+				<div ng-if="geolocationStatus != null && !geolocationStatus.enabled">
+					<p>Sorry, we can not determine your location for the following reason:</p>
+					<p>{{geolocationStatus.message}}</p>
 				</div>
 			</div>
 			<div ng-if="showElection">
@@ -68,7 +75,7 @@
 								<section class="electedsOfWeek">
 									<h3>Electeds Of Week</h3>
 									<div ng-repeat="electedOfWeek in election.electedsOfWeek track by $index">
-										<elected-of-week elected='electedOfWeek'></elected-of-week>										
+										<elected-of-week elected='electedOfWeek'></elected-of-week>
 									</div>
 								</section>
 							</div>
