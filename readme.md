@@ -30,7 +30,6 @@ Bellow is a list of improvements and other functionalities that are missing for 
 - The time control of my code has flaws related with time zone.
 - In case of draw between two or more candidates the last of the list is the winner.
 - Implement a proper serialization method, currently the data is write/read in a json file, but I left the repository read to acept the database implemntation, so there is just one place that need to be changed in that case.
-- The restaurant list in being fetched with Google places API, but the location is hardcoded.
 - The user Id is populate by the user name in a text box, so some sort of login or other identification is required.
 - The layout is really bad.
 
