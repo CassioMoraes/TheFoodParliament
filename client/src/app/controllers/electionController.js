@@ -1,9 +1,28 @@
-app.controller('ElectionController', ['$scope', 'webService', function ($scope, webService) {
+app.controller('ElectionController', ['$scope', 'webService', 'geolocationService', function ($scope, webService, geolocationService) {
     $scope.election = [];
     $scope.user = { 'name': null };
     $scope.showElection = false;
 
-    $scope.initialize = function () { }
+    $scope.location = null;
+    $scope.geolocationStatus = null;
+
+    $scope.initialize = function () {
+        console.log("Geolocation", $scope.geolocationStatus);
+
+        geolocationService.getLocation(function (position) {
+            $scope.geolocationStatus = { 'enabled': true, 'message': 'Success' };
+
+            $scope.location = {
+                'latitude': position.coords.latitude,
+                'longitude': position.coords.longitude
+            };
+
+            $scope.$apply();
+        }, function (error) {
+            $scope.geolocationStatus = { 'enabled': false, 'message': error.message };
+            $scope.$apply();
+        });
+    }
 
     $scope.nameInput = function () {
         if ($scope.user.name != null && $scope.user.name != undefined) {
@@ -31,5 +50,4 @@ app.controller('ElectionController', ['$scope', 'webService', function ($scope, 
             alert("Error voting for restaurant!")
         });
     }
-
 }]);
